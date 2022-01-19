@@ -1,5 +1,5 @@
 <template>
-  <div>"안녕하세요"</div>
+  <div>THIS IS HOME</div>
 </template>
 <script>
 import HomeApi from "@/api/modules/HomeApi";

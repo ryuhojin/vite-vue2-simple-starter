@@ -1,5 +1,5 @@
 {
-  "name": "vite-vue2-enterprise-starter",
+  "name": "vite-vue2-simple-starter",
   "version": "0.0.1",
   "scripts": {
     "serve": "vite",
