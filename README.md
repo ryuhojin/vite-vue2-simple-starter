@@ -10,10 +10,6 @@ We provide sample Code about Vuex and Vue-router and Axios
 > #### LIGHTHOUSE SCORE
 ![image](https://user-images.githubusercontent.com/46044125/150083333-bf268290-466e-4cf8-927f-e5fff30bf84f.png)
 
-> #### MAIN PAGE
-![image](https://user-images.githubusercontent.com/46044125/150083139-b639a436-6afe-4cc9-aa74-55efeab15205.png)
-
-
 > #### If you want to use this starter
 ```
 npm install
