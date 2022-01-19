@@ -2,6 +2,7 @@
   <div>"안녕하세요"</div>
 </template>
 <script>
+import HomeApi from "@/api/modules/HomeApi";
 export default {
   name: "Home",
   components: {},
@@ -17,6 +18,10 @@ export default {
   deactivated() {}, //when keep-alive
   beforeDestroy() {},
   destroyed() {},
-  methods: {},
+  methods: {
+    // getDatList(){
+    //   HomeApi.getDatList()
+    // }
+  },
 };
 </script>
