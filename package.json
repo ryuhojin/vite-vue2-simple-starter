@@ -1,0 +1,17 @@
+{
+  "name": "vite-vue2-enterprise-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "^2.7.13",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "vite-plugin-compression": "^0.4.0",
+    "vite-plugin-vue2": "^1.9.2"
+  }
+}
