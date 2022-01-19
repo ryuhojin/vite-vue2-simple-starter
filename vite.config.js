@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import legacy from '@vitejs/plugin-legacy'
 import { createVuePlugin } from 'vite-plugin-vue2'
 import viteCompression from 'vite-plugin-compression';
 import path from 'path';
@@ -27,6 +28,10 @@ export default defineConfig({
   },
   plugins: [
     createVuePlugin(/* options */),
+    legacy({
+      targets: ['ie >= 11'],
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
+    }),
     viteCompression()
   ],
 })
