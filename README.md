@@ -24,3 +24,8 @@ npm run serve
 ```
 npm run build:prod
 ```
+
+> ### UPDATED
+
+#### 2022-01-26
+- vite-plugin-vue2's template-compiler is not working so, i added vue-template-compiler in package.json. If vite-plugin-vue2's library will be good working again, i will remove again.
